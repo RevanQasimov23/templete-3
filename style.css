@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.box1{
+   background-color: grey;
+   width: 10%;
+   height: 40%;
+    margin: 5%;
+    display: flex;
+   
+   
+
+}
+.circle1{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: move2 0.5s linear infinite;
+}
+
+.circle2{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: move2 0.7s linear infinite;
+}
+
+.circle3{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: move2 0.9s linear infinite;
+}
+
+@keyframes move2{
+ 0%,100%{
+    transform: translate(0,0);
+ }
+ 50%{
+    transform: translate(0,50px);
+ }
+   
+}
+ 
+ .box2{
+background-color: grey;
+width: 10%;
+height: 40%;
+ margin: 5%;
+ display: flex;
+
+}
+.right{
+ display: inline-block;
+ width:50px;
+ height:50px;
+ background-color: blue;
+ animation: move 1.5s linear infinite;
+}
+
+
+ @keyframes move{
+    0%,100%{
+       transform: translate(0,0) rotate(0deg);
+    }
+    50%{
+       transform: translate(50px,0px) rotate(360deg);
+    }
+      
+   }
+
+   .box3{
+    background-color: grey;
+    width: 10%;
+    height: 40%;
+     margin: 5%;
+     display: flex;
+    
+    }
+    .growingup{
+     display: inline-block;
+     width:50px;
+     height:50px;
+     border-radius: 30%;
+     background-color: blue;
+     animation: move3 1.5s linear infinite;
+    }
+
+    @keyframes move3{
+        0%,100%{
+          width: 15px;
+          height: 4px;
+        }
+          50%{
+            width: 35px;
+            padding: 4px;
+          }
+       }
+    
+       .box4{
+        background-color: grey;
+        width: 10%;
+        height: 40%;
+         margin: 5%;
+         display: flex;
+        
+        }
+        .line{
+         display: inline-block;
+         width:10px;
+         height:10px;
+         background-color: blue;
+         animation: move4 1.5s linear infinite;
+        }
+
+
+        @keyframes move4{
+            0%,100%{
+               transform: translate(0,0);
+            }
+            50%{
+                transform: translate(50px,0px);
+             }
+              
+           }
